@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Gruppe_374" data-name="Gruppe 374" transform="translate(-468 -4029)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(468 4029)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_114" data-name="Gruppe 114" transform="translate(443.043 3680.971)">
+      <path id="Pfad_89" data-name="Pfad 89" d="M94.75,386.361a5.188,5.188,0,1,0-5.833-4.455A5.187,5.187,0,0,0,94.75,386.361Z" transform="translate(-6.334 0)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Pfad_90" data-name="Pfad 90" d="M90.655,429.4a2.059,2.059,0,0,1-.219-.01,2.771,2.771,0,0,1-2.552-2.963c.232-3.226-1.2-8.9-1.552-10.232-1.121-1.23-6.149-3.178-8.236-3.912-1.554,2.177-4.639,5.709-8.916,6.883a1.492,1.492,0,0,1-.36.037c-1.495,0-6.554-1.553-13.124-5a2.774,2.774,0,0,1,1.29-5.227,2.8,2.8,0,0,1,1.288.317,85.208,85.208,0,0,0,9.459,4.309,19.626,19.626,0,0,0,3.468-3.463,85.966,85.966,0,0,0,8.509-14.957c-.127,0-.259-.008-.4-.008-3.251,0-8.853,1.391-11.113,1.99a2.381,2.381,0,0,1-1.217-4.6l.485-.132c2-.547,7.323-2,11.543-2a14.457,14.457,0,0,1,1.847.109c.314.044.614.095.9.155a8.075,8.075,0,0,1,1.909.64c.183.072.4.167.626.27l.366.172c.29.144.582.312.874.488a11.952,11.952,0,0,1,1.684,1.234c.137.119.272.246.405.375.183.154.315.256.45.353a9.591,9.591,0,0,0,5.74,1.532h0a24.362,24.362,0,0,0,7-1.166,2.323,2.323,0,0,1,.925-.19,2.381,2.381,0,0,1,.94,4.568,21.816,21.816,0,0,1-5.293,1.394,24.148,24.148,0,0,1-3.116.2h0a16.02,16.02,0,0,1-6.821-1.325,25.326,25.326,0,0,1-4.207,7.37c-.141.182-.277.359-.407.533,2.983,1.457,6.652,3.566,8.164,5.723l.222.32a.382.382,0,0,1,.058.121l.109.375c.1.331,2.38,8.192,2.028,13.149A2.786,2.786,0,0,1,90.655,429.4Z" transform="translate(-1.553 -1.985)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Linie_33" data-name="Linie 33" x1="20.022" y2="0.038" transform="translate(47.684 400.721)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linie_34" data-name="Linie 34" x1="16.816" transform="translate(42.957 388.193)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linie_35" data-name="Linie 35" x1="17.242" transform="translate(51.299 381.925)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linie_36" data-name="Linie 36" x1="5.561" transform="translate(53.246 394.46)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

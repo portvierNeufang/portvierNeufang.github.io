@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Pfad_37" data-name="Pfad 37" d="M0,26.048H28.9V-30H0Z" transform="translate(0 30)" fill="#bd8c6e"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_399" data-name="Gruppe 399" transform="translate(-1212 -10145)">
+    <g id="Ellipse_35" data-name="Ellipse 35" transform="translate(1212 10145)" fill="#bd8c6e" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_42" data-name="Gruppe 42" transform="translate(1250 10167)">
+      <g id="Gruppe_41" data-name="Gruppe 41" clip-path="url(#clip-path)">
+        <g id="Gruppe_40" data-name="Gruppe 40" transform="translate(0 0)">
+          <path id="Pfad_36" data-name="Pfad 36" d="M3.9,26.048V.98h-8.4V-8.982H3.9v-7.849C3.9-25.359,9.113-30,16.72-30a70.233,70.233,0,0,1,7.686.394v8.91H19.128c-4.136,0-4.936,1.971-4.936,4.85v6.864H23.53L22.248.98H14.192V26.048" transform="translate(4.494 30)" fill="#0b0b0b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

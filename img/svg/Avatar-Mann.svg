@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="331" height="331" viewBox="0 0 331 331">
+  <g id="Gruppe_396" data-name="Gruppe 396" transform="translate(-217 -8204)">
+    <g id="Ellipse_41" data-name="Ellipse 41" transform="translate(217 8204)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="165.5" cy="165.5" r="165.5" stroke="none"/>
+      <circle cx="165.5" cy="165.5" r="163" fill="none"/>
+    </g>
+    <g id="Gruppe_346" data-name="Gruppe 346" transform="translate(238.413 8233.48)">
+      <path id="Pfad_176" data-name="Pfad 176" d="M82.664,87.534S116.445,92.3,127,66.5c0,0,11.306,20.874,27.821,20.874" transform="translate(35.433 20.476)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Gruppe_345" data-name="Gruppe 345" transform="translate(70.587 59.52)">
+        <g id="Gruppe_343" data-name="Gruppe 343" transform="translate(0 111.453)">
+          <path id="Pfad_177" data-name="Pfad 177" d="M118.872,87.851c.02,6.2,0,19.6,0,19.6s1.412,8.368-48.285,21.015" transform="translate(-70.587 -87.851)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Gruppe_344" data-name="Gruppe 344" transform="translate(26.794)">
+          <path id="Pfad_178" data-name="Pfad 178" d="M95.852,87.851c-.028,6.2,0,19.6,0,19.6s-1.416,8.368,48.277,21.015" transform="translate(-23.29 23.602)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Pfad_179" data-name="Pfad 179" d="M139.818,174.037c6.739-1.613,10.181-4.626,10.181-4.626,11.4-8.1,18.474-33.494,20.6-51.287,3.143-26.216-.358-57.566-46.047-58.6h-.264c-45.685,1.039-49.178,32.388-46.035,58.6,2.128,17.793,9.2,43.187,20.6,51.287,0,0,3.446,3.013,10.177,4.626" transform="translate(-77.398 -59.52)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

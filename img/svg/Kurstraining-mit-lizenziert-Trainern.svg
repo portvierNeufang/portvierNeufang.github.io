@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Gruppe_376" data-name="Gruppe 376" transform="translate(-468 -4279)">
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(468 4279)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_121" data-name="Gruppe 121" transform="translate(314.549 4262.003)">
+      <g id="Gruppe_119" data-name="Gruppe 119" transform="translate(198.954 57.673)">
+        <path id="Pfad_91" data-name="Pfad 91" d="M204.3,86.289V74.253c0-14.918,13.208-14.464,13.811-14.464s13.808-.528,13.808,14.464V86.289" transform="translate(-202.334 -59.786)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Pfad_92" data-name="Pfad 92" d="M209.357,73.038h5.48l2.282-4.564,2.686,4.565h8.416" transform="translate(-202.971 -60.88)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g id="Gruppe_117" data-name="Gruppe 117" transform="translate(0 24.059)">
+          <g id="Gruppe_115" data-name="Gruppe 115" transform="translate(21.138)">
+            <path id="Pfad_93" data-name="Pfad 93" d="M226.235,87.31c0,1.339,0,4.862,0,4.862s-.3,1.806,10.406,4.532" transform="translate(-226.233 -87.31)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+          <g id="Gruppe_116" data-name="Gruppe 116">
+            <path id="Pfad_94" data-name="Pfad 94" d="M212.457,87.31c0,1.339,0,4.862,0,4.862s.306,1.806-10.406,4.532" transform="translate(-202.051 -87.31)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Gruppe_118" data-name="Gruppe 118" transform="translate(7.995 12.238)">
+          <path id="Pfad_95" data-name="Pfad 95" d="M227.993,73.787a12.13,12.13,0,0,1,.258,2.932c0,4.2-1.648,8.852-4.332,10.866a5.426,5.426,0,0,1-.746.408" transform="translate(-212.704 -73.787)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Pfad_96" data-name="Pfad 96" d="M211.464,73.787a12.3,12.3,0,0,0-.26,2.932c0,4.2,1.65,8.852,4.334,10.866a5.426,5.426,0,0,0,.746.408" transform="translate(-211.197 -73.787)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <path id="Pfad_97" data-name="Pfad 97" d="M196.761,70.122h-5.784v9.3l-6.385-9.281h-4.281a2.868,2.868,0,0,1-2.86-2.862V45.859A2.868,2.868,0,0,1,180.311,43h31.313a2.9,2.9,0,0,1,2.891,2.862v7.788" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Gruppe_120" data-name="Gruppe 120" transform="translate(183.649 50.054)">
+        <line id="Linie_37" data-name="Linie 37" x2="24.668" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Linie_38" data-name="Linie 38" x2="9.695" transform="translate(0 12.719)" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Linie_39" data-name="Linie 39" x2="19.089" transform="translate(0 6.36)" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

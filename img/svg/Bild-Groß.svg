@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 702 448">
+  <g id="Gruppe_411" data-name="Gruppe 411" transform="translate(-682 -1300)">
+    <g id="Rechteck_40" data-name="Rechteck 40" transform="translate(682 1300)" fill="rgba(0,0,0,0.5)" stroke="#000" stroke-width="5">
+      <rect width="702" height="448" stroke="none"/>
+      <rect x="2.5" y="2.5" width="697" height="443" fill="black"/>
+    </g>
+    <g id="Gruppe_199" data-name="Gruppe 199" transform="translate(1426.625 1087.883)">
+      <g id="Gruppe_197" data-name="Gruppe 197" transform="translate(-372.773 322.117)">
+        <path id="Pfad_142" data-name="Pfad 142" d="M-475.075,340.269a24.642,24.642,0,0,1,24.622,24.605A24.652,24.652,0,0,1-475.075,389.5a24.638,24.638,0,0,1-24.6-24.624,24.628,24.628,0,0,1,24.6-24.605m0-18.152a42.767,42.767,0,0,0-42.749,42.758,42.769,42.769,0,0,0,42.749,42.777A42.771,42.771,0,0,0-432.3,364.875a42.769,42.769,0,0,0-42.774-42.758Z" transform="translate(517.824 -322.117)" fill="none" stroke="#bd8c6e" stroke-width="1"/>
+      </g>
+      <path id="Pfad_143" data-name="Pfad 143" d="M-601.625,500.561-460.9,350.219l142.187,149.962" transform="translate(0 48.642)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_144" data-name="Pfad 144" d="M-501.868,416.483l48.048-51.126L-357.6,468.048" transform="translate(172.669 74.844)" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

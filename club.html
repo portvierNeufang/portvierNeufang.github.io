@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon3/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon3/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon3/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon3/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon3/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon3/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon3/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon3/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="img/favicon3/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="img/favicon3/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="img/favicon3/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="img/favicon3/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="img/favicon3/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#" />
+<meta name="msapplication-TileImage" content="img/favicon3/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="img/favicon3/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="img/favicon3/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="img/favicon3/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="img/favicon3/mstile-310x310.png" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MOVIMENTI</title>
+<meta name="description" content="">
+<meta name="keywords" content="Fitness, Fitnessstudio">
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.11.2.min.js"></script>
+<script src="js/toggle.js"></script>
+
+    <header class="header">
+        <div class="headerContainer" id="Header">
+            <div class="headerContainerLeft">
+                <a href="index.html">
+                    <img class="headerLogo" src="img/svg/Movimenti-Logo.svg"/>
+                </a>
+            </div>
+            <div class="headerContainerRight">
+                <img class="headerButton" onclick="toggleMenu()" src="img/svg/Menue-Burger.svg"/>
+            </div>
+        </div><!--container-->
+    
+        <!--Hauptmenue-->
+        <div class="hauptmenue" id="Menu">
+            <div class="menuContainerLeft">
+                <a href="./index.html">
+                    <img class="menuLogo" src="img/svg/Movimenti-Logo.svg"/>
+                </a>
+            </div>
+            <div class="menuContainerRight">
+                <img class="menuButton" onclick="toggleMenu()" src="img/svg/Menue-Schließen.svg"/>
+                <div class="menu">
+                    <a class="menuItem" href="./member.html" onmouseover="showMenuFlower(this)" onmouseout="hideMenuFlower()"><p>Mitgliedschaft</p></a>
+                    <br class="menubr">
+                    <a class="menuItem" href="./club.html" onmouseover="showMenuFlower(this)" onmouseout="hideMenuFlower()"><p>Rundgang</p></a>
+                    <br class="menubr">
+                    <a class="menuItem" href="./coming_soon.html" onmouseover="showMenuFlower(this)" onmouseout="hideMenuFlower()"><p>Team</p></a>
+                    <img class="menuFlower" id="MenuFlower" src="img/svg/Movimenti-Blume-Braun.svg"/>
+                </div>
+            </div>
+        </div>
+    
+        <!--Kursplan-->
+        <div class="overlay" id="Kurse">
+            <img class="imageFlowerBrown" src="img/svg/Movimenti-Blume-Braun.svg"/>
+            <h1 class="middle top25">Kursplan</h1>
+            <div class="courseHeader">
+                <div class="courseHeaderCell left17">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/MO.svg">
+                </div>
+                <div class="courseHeaderCell left28">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/DI.svg">
+                </div>
+                <div class="courseHeaderCell left39">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/MI.svg">
+                </div>
+                <div class="courseHeaderCell left50">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/DO.svg">
+                </div>
+                <div class="courseHeaderCell left61">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/FR.svg">
+                </div>
+                <div class="courseHeaderCell left72">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/SA.svg">
+                </div>
+                <div class="courseHeaderCell left83">
+                    <img class="imageInContainerHeight imageCenter" src="img/svg/SO.svg">
+                </div>
+            </div>  
+            <div class="courseLine top46">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">07:30-08:15</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Body-Workout</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Body Balance</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Mobility</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Reha</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Rückenfit</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">--</p>
+                </div>
+            </div>
+            <div class="courseLine top52">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">09:00-10:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Rückenschule</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Body-Pump</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Power Core</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Burn It</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Body-Pump</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">Rücken Fit</p>
+                </div>
+            </div>
+            <div class="courseLine top58">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">10:00-11:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Atlethic-Fight</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Fit Age</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Body-Attack</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Zumba</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Stretch & Breath</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">Body-Balance</p>
+                </div>
+            </div>
+            <div class="courseLine top64">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">12:00-13:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Bauch Beine Po</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Reha</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Body-Pump</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Power Core</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Hit</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">--</p>
+                </div>
+            </div>
+            <div class="courseLine top70">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">17:00-18:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Reha</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Hit</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Reha</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Zumba</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Reha</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">--</p>
+                </div>
+            </div>
+            <div class="courseLine top76">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">18:00-19:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Stressreduktion</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Pilates</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Body-Attack</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Burn It Intense</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Power Core</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">--</p>
+                </div>
+            </div>
+            <div class="courseLine top82">
+                <div class="courseCellTime left6">
+                    <p class="courseTime">19:00-20:00</p>
+                </div>
+                <div class="courseCell left17">
+                    <p class="course">Body Pump</p>
+                </div>
+                <div class="courseCell left28">
+                    <p class="course">Atlethic-Fight</p>
+                </div>
+                <div class="courseCell left39">
+                    <p class="course">Body Balance</p>
+                </div>
+                <div class="courseCell left50">
+                    <p class="course">Rücken Fit</p>
+                </div>
+                <div class="courseCell left61">
+                    <p class="course">Faszien Fit</p>
+                </div>
+                <div class="courseCell left72">
+                    <p class="course">--</p>
+                </div>
+                <div class="courseCell left83">
+                    <p class="course">--</p>
+                </div>
+            </div>
+
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="10%" x2="50%" y2="15%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="21%" x2="50%" y2="25%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="31%" x2="50%" y2="35%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="10%" y1="35%" x2="88%" y2="35%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <!--Vertical Lines-->
+            <svg class="line" height="100%" width="100%">
+                <line x1="10%" y1="35%" x2="10%" y2="45%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="22%" y1="35%" x2="22%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="33%" y1="35%" x2="33%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="44%" y1="35%" x2="44%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="55%" y1="35%" x2="55%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="66%" y1="35%" x2="66%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="77%" y1="35%" x2="77%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="88%" y1="35%" x2="88%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <!--horizontal Lines-->
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="48.5%" x2="87%" y2="48.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="54.5%" x2="87%" y2="54.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="60.5%" x2="87%" y2="60.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="66.5%" x2="87%" y2="66.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="72.5%" x2="87%" y2="72.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="78.5%" x2="87%" y2="78.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="15%" y1="84.5%" x2="87%" y2="84.5%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            
+        </div>
+    
+        <!--Oeffnungszeiten-->
+        <div class="overlay" id="Times">
+            <h1 class="top15 middle">Öffnungszeiten</h1>
+            <h2 class="top45 left25 imageCenter">Movimenti</h2>
+            <img class="absolute middle top90" src="img/svg/Movimenti-Blume-Braun.svg">
+            <div class="timesColumn">
+                <div class="timesCell top38 verticalmiddle">
+                    <p class="nowrap">Montag-Freitag</p>
+                    <br><br>
+                    <p class="nowrap">07:00-21:00</p>
+                </div>
+                <div class="timesCell top58 verticalmiddle">
+                    <p class="nowrap">Samstag & Sonntag</p>
+                    <br><br>
+                    <p class="nowrap">08:00-18:00</p>
+                </div>
+                <div class="timesCell top78 verticalmiddle">
+                    <p class="nowrap">Feiertag</p>
+                    <br><br>
+                    <p class="nowrap">09:00-15:00</p>
+                </div>
+            </div>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="25%" x2="50%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <!--Horizontal Lines-->
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="35%" x2="65%" y2="35%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="55%" x2="65%" y2="55%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="75%" x2="65%" y2="75%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <svg class="line" height="100%" width="100%">
+                <line x1="35%" y1="45%" x2="50%" y2="45%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+        </div>
+    
+        <!--Kontakt-->
+        <div class="overlay" id="Contact">
+            <h1 class="top15 middle">Kontakt</h1>
+            <h2 class="top45 left25 imageCenter">Movimenti</h2>
+            <img class="absolute middle top90" src="img/svg/Movimenti-Blume-Braun.svg">
+            <div class="contactColumn">
+                <div class="contactCell verticalmiddle top40">
+                    <p class="nowrap">Verwaltung:</p>
+                    <br><br>
+                    <p class="nowrap">Konzept 43 GmbH</p>
+                </div>
+                <div class="contactCell verticalmiddle top55">
+                    <p class="nowrap">Grubenweg 1</p>
+                    <br><br>
+                    <p class="nowrap">66386 St.Ingbert</p>
+                </div>
+                <div class="contactCell verticalmiddle top70">
+                    <p class="nowrap">06894/8884456</p>
+                    <br><br>
+                    <p class="nowrap">info@movi-menti.de</p>
+                </div>
+            </div>
+            <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="25%" x2="50%" y2="85%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+            <!--Horizontal Lines-->
+            <svg class="line" height="100%" width="100%">
+                <line x1="35%" y1="45%" x2="50%" y2="45%" style="stroke:#BD8C6E;stroke-width:5" />
+            </svg>
+        </div>
+    
+    </header>
+
+</head>
+
+
+
+<body class="body" onload="hideElements()">
+    <!--SideMenue-->    
+    <div class="sideMenue">
+        <img class="imageInContainer block" onclick="toggleKurse()" src="img/svg/Kursplan.svg"/><img class="imageInContainer block" onclick="toggleTimes()" src="img/svg/Oeffnungszeiten.svg"/><img class="imageInContainer block" onclick="toggleContact()" src="img/svg/Kontakt.svg"/>
+    </div>
+
+    <!--PlaceHolder: Blocks Space below Header at the Start of Page-->
+    <div class="placeHolder"></div>
+
+    <!--Section1-->
+    <div class="sectionContainerBorderSides darkGrey px1000">
+        <h1 class="middle top15">Rundgang</h1>
+        <h1 class="left20 top50 imageCenter">Movimenti</h1>
+        <div class="containerRight">
+            <p class="top55 left50px imageVerticalMiddle">Unser Studio befindet sich momentan noch in der Bauphase. Erste Eindrücke haben wir aber bereits heute für Sie:
+                <br><br>Entdecken Sie die einzelnen Studiobereiche in unserem fotographischen Rundgang. Wir sehen uns im Frühjahr zur Eröffnung!
+            </p>
+        </div>
+        
+        <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="25%" x2="50%" y2="95%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+                <line x1="30%" y1="50%" x2="50%" y2="50%" style="stroke:black;stroke-width:5" />
+        </svg>
+
+        <img class="imageFlower top100" src="img/svg/Movimenti-Blume.svg"/>
+
+
+        <!--Upper Half Lines between Sections-->
+        <img class="absolute imageCenter left50 top100 front" src="img/svg/Movimenti-Blume.svg"/>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="100%" x2="48%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <div class="sectionContainerBorderSides darkGrey px1000vw">
+        <!--Lower Half Lines between Sections-->
+        <svg class="line" height="100%" width="100%">
+                <line x1="20%" y1="0%" x2="48%" y2="0%" style="stroke:black;stroke-width:5" />
+        </svg>
+
+        <img class="imageCenter left20 top10 absolute front" src="img/svg/0.svg"/>
+        <div class="containerClubLefttemp">
+            <h1 class="left25 nowrap">Bar</h1>
+            <p class="top25">Genießen Sie nach einem ausgiebigen Training, einen erholsamen Saunagang oder einfach nur nach einem langen Arbeitstag einen Drink an unserer lichtdurchfluteten Bar.</p>
+        </div>
+        
+        <div class="containerClubPictures">
+            <img class="imageTeamLeft imageCenter imageContainerHeight imageBorder" src="img/images/Theke_1_cut.jpg"/>
+            <img class="imageTeamMiddle imageCenter imageContainerHeight imageBorder" src="img/images/Theke_2_cut.jpg"/>
+            <img class="imageTeamRight imageCenter imageContainerHeight imageBorder" src="img/images/Eingang_1_cut.jpg"/>
+        </div>
+
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="0%" x2="20%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="35%" x2="20%" y2="60%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="25%" y1="66%" x2="75%" y2="66%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="66%" x2="80%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <div class="sectionContainerBorderSides darkGrey px1000vw">
+
+        <img class="imageCenter left80 top10 absolute front" src="img/svg/1.svg"/>
+        <div class="containerClubRighttemp">
+            <h1 class="left25 nowrap">Zirkeltraining</h1>
+            <p class="left-40 top25">Absolvieren Sie in einem vorgegebenen Zeitrahmen Ihr individuelles und abwechslungsreiches Training, ohne dabei nachjustieren oder eine Muskelgruppe auslassen zu müssen.</p>
+        </div>
+        
+        <div class="containerClubPictures">
+            <img class="imageTeamLeft imageCenter imageContainerHeight imageBorder" src="img/images/HIBB_1_cut.jpg"/>
+            <img class="imageTeamMiddle imageCenter imageContainerHeight imageBorder" src="img/images/HIBB_&_Cardio_cut.jpg"/>
+            <img class="imageTeamRight imageCenter imageContainerHeight imageBorder" src="img/images/HIBB_&_Cardio_2_cut.jpg"/>
+        </div>
+
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="0%" x2="80%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="35%" x2="80%" y2="60%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="25%" y1="66%" x2="75%" y2="66%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="66%" x2="20%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <div class="sectionContainerBorderSides darkGrey px1000vw">
+
+        <img class="imageCenter left20 top10 absolute front" src="img/svg/2.svg"/>
+        <div class="containerClubLefttemp">
+            <h1 class="left15 nowrap">Cardiobereich</h1>
+            <p class="top25">Trainieren Sie in unserem vernetzen Cardiobereich effektiv und individuell Ihre Ausdauer.  Youtube, Facebook & Co. sind bei all unseren Geräten vorinstalliert und kostenfrei nutzbar.</p>
+        </div>
+        
+        <div class="containerClubPictures">
+            <img class="imageTeamLeft imageCenter imageContainerHeight imageBorder" src="img/images/Cardio_1_cut.jpg"/>
+            <img class="imageTeamMiddle imageCenter imageContainerHeight imageBorder" src="img/images/Flur_Cardio_HIBB_cut.jpg"/>
+            <img class="imageTeamRight imageCenter imageContainerHeight imageBorder" src="img/images/HIBB_&_Cardio_cut_2.jpg"/>
+        </div>
+
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="0%" x2="20%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="35%" x2="20%" y2="60%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="25%" y1="66%" x2="75%" y2="66%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="66%" x2="80%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <div class="sectionContainerBorderSides darkGrey px1000vw">
+
+        <img class="imageCenter left80 top10 absolute front" src="img/svg/3.svg"/>
+        <div class="containerClubRighttemp">
+            <h1 class="left25 nowrap">Freies Training</h1>
+            <p class="left-40 top25">Nutzen Sie das Wissen unserer hervorragend ausgebildeten Trainer und erreichen Sie Ihre Ziele mit Ihrem personalisierten Training.</p>
+        </div>
+        
+        <div class="containerClubPictures">
+            <img class="imageTeamLeft imageCenter imageContainerHeight imageBorder" src="img/images/Freier_Bereich_1_cut.jpg"/>
+            <img class="imageTeamMiddle imageCenter imageContainerHeight imageBorder" src="img/images/Freier_Bereich_2_cut.jpg"/>
+            <img class="imageTeamRight imageCenter imageContainerHeight imageBorder" src="img/images/Freier_Bereich_und_Gruppenfitness_cut.jpg"/>
+        </div>
+
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="0%" x2="80%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="35%" x2="80%" y2="60%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="25%" y1="66%" x2="75%" y2="66%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="66%" x2="20%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <div class="sectionContainerBorderSides darkGrey px1000vw">
+
+        <img class="imageCenter left20 top10 absolute front" src="img/svg/4.svg"/>
+        <div class="containerClubLefttemp">
+            <h1 class="left15 nowrap">Gruppenfitness</h1>
+            <p class="top25">Erleben Sie die Motivation, die Ihnen die Gruppe gibt. Unsere Kurse sind  abwechslungsreich, motivierend und immer zielführend.</p>
+        </div>
+        
+        <div class="containerClubPictures">
+            <img class="imageTeamLeft imageCenter imageContainerHeight imageBorder" src="img/images/Gruppenfitness_1_cut.jpg"/>
+            <img class="imageTeamMiddle imageCenter imageContainerHeight imageBorder" src="img/images/Gruppenfitness_2_cut.jpg"/>
+            <img class="imageTeamRight imageCenter imageContainerHeight imageBorder" src="img/images/Gruppenfitness_3_cut.jpg"/>
+        </div>
+
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="0%" x2="20%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="20%" y1="35%" x2="20%" y2="60%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="25%" y1="66%" x2="75%" y2="66%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+            <line x1="80%" y1="66%" x2="80%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+
+        <!--Upper Half Lines between Sections-->
+    
+        <svg class="line" height="100%" width="100%">
+            <line x1="0%" y1="100%" x2="100%" y2="100%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+    <!--Secction7:-->
+    <div class="sectionContainer brown px1000">
+
+        <!--Lower Half Lines between Sections-->
+        <svg class="line" height="100%" width="100%">
+            <line x1="0%" y1="0%" x2="100%" y2="0%" style="stroke:black;stroke-width:5" />
+        </svg>
+
+        <h1 class="middle top25 nowrap">Jetzt schon Mitglied werden</h1>
+        <div class="containerTeamParagraph">
+            <p >Melden Sie sich bereits vor der Eröffnung bei Movimenti an und profitieren Sie von attraktiven Eröffnungsangeboten!</p>
+        </div>
+        <img class="imageCenter top80 left50 absolute" src="img/svg/Movimenti-Blume.svg"/>
+
+        <button class="buttonLeft50 buttonTop90 buttonCommon"  onmouseover="invertButton(this)" onmouseout="resetButton(this)" onclick="location.href='mailto:info@movi-menti.de'" type="button">Mitglied werden</button>
+    
+        <svg class="line" height="100%" width="100%">
+                <line x1="20%" y1="0%" x2="50%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+                <line x1="80%" y1="0%" x2="50%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="0%" x2="50%" y2="20%" style="stroke:black;stroke-width:5" />
+        </svg>
+
+        <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="35%" x2="50%" y2="45%" style="stroke:black;stroke-width:5" />
+        </svg>
+        <svg class="line" height="100%" width="100%">
+                <line x1="50%" y1="65%" x2="50%" y2="75%" style="stroke:black;stroke-width:5" />
+        </svg>
+    </div>
+
+
+
+    <!--Section8: Foot-->
+
+    <div class="sectionContainer darkGrey vw20">
+        <div class="containerImpressum">
+            <a href="./imprint.html"><p class="verticalmiddle">Datenschutz & Impressum</p></a>
+        </div>
+        <div class="containerSection8">
+            <div class="containerInstagram">
+                <a href="https://www.instagram.com">
+                    <img class="socialIcons" onmouseover="invertInstagramButton(this)" onmouseout="resetInstagramButton(this)" src="img/svg/Instagram.svg"/>
+                </a>
+            </div>
+            <div class="containerFacebook">
+                <a href="https://www.facebook.com">
+                    <img class="socialIcons" onmouseover="invertFacebookButton(this)" onmouseout="resetFacebookButton(this)" src="img/svg/Facebook.svg"/>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

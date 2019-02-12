@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Gruppe_382" data-name="Gruppe 382" transform="translate(-1024 -4154)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(1024 4154)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_381" data-name="Gruppe 381" transform="translate(1 4)">
+      <g id="Gruppe_100" data-name="Gruppe 100" transform="translate(1044 4170)">
+        <g id="Gruppe_97" data-name="Gruppe 97" transform="translate(0 4.511)">
+          <path id="Pfad_68" data-name="Pfad 68" d="M60.666,393.656A11.067,11.067,0,1,1,72.332,380.07" transform="translate(-50.496 -371.556)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_17" data-name="Linie 17" x1="5.348" y2="4.126" transform="translate(13.998 4.681)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_18" data-name="Linie 18" x1="6.615" y2="1.15" transform="translate(0.823 11.7)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_19" data-name="Linie 19" x1="3.418" y2="5.718" transform="translate(5.761 14.23)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_20" data-name="Linie 20" x1="5.054" y1="4.282" transform="translate(3.184 4.389)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_21" data-name="Linie 21" y1="6.622" x2="0.061" transform="translate(11.102 0.721)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <g id="Gruppe_98" data-name="Gruppe 98" transform="translate(14.086 17.196)">
+          <path id="Pfad_69" data-name="Pfad 69" d="M66.619,386.076l.8,20.255,2.5,4.751,1.25,18.507h10.5" transform="translate(-66.619 -386.076)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Pfad_70" data-name="Pfad 70" d="M99.907,386.076l-.8,20.255-2.5,4.751-1.25,18.507H83.734" transform="translate(-68.781 -386.076)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <line id="Linie_22" data-name="Linie 22" x2="30.229" transform="translate(14.534 29.762)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Pfad_71" data-name="Pfad 71" d="M89.97,395.764V371.116l9.137-4.723" transform="translate(-55.483 -366.393)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g id="Gruppe_99" data-name="Gruppe 99" transform="translate(23.463 39.328)">
+          <line id="Linie_23" data-name="Linie 23" x1="0.511" y1="16.019" transform="translate(0 0.07)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_24" data-name="Linie 24" y1="16.019" x2="0.511" transform="translate(11.86 0.07)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <line id="Linie_25" data-name="Linie 25" y2="16.07" transform="translate(6.186)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+        <line id="Linie_26" data-name="Linie 26" x2="12.228" transform="translate(34.574 17.174)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Linie_27" data-name="Linie 27" x2="17.83" transform="translate(12.431 17.174)" fill="none" stroke="#bd8c6e" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Linie_28" data-name="Linie 28" x2="12.697" transform="translate(12.431 17.174)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
