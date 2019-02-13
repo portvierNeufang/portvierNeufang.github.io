@@ -24,7 +24,7 @@
     }
 
     li {
-        font-size: 20px;
+        font-size: 1.0vw;
     }
 
     .size25{
@@ -67,6 +67,14 @@
         left: 25%;
     }
 
+    .h1imp2{
+        font-size: 1.6vw;
+    }
+
+    .pimp{
+        font-size: 1.0vw;
+    }
+
 }
 
 
@@ -87,7 +95,7 @@
     }
 
     li {
-        font-size: 1.5vw;
+        font-size: 0.9vw;
     }
 
     .size25{
@@ -131,9 +139,18 @@
     .description{
         left: 15%;
     }
+
+    .h1imp2{
+        font-size: 1.35vw;
+    }
+
+    .pimp{
+        font-size: 0.9vw;
+    }
+
 }
 
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1500px) {
     p {
         /*background-color: blue;*/
         font-size: 1.5vw;
@@ -150,7 +167,7 @@
     }
 
     li {
-        font-size: 1.5vw;
+        font-size: 0.75vw;
     }
 
     .size25{
@@ -192,7 +209,18 @@
     .description{
         left: 15%;
     }
+
+    
+    .h1imp2{
+        font-size: 1vw;
+    }
+
+    .pimp{
+        font-size: 0.75vw;
+    }
+
 }
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -240,7 +268,6 @@ h2 {
 }
 
 li {
-    font-size: 1rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -255,7 +282,6 @@ li {
 
 .h1imp2{
     position: relative;
-    font-size: 1.5rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 50px;
@@ -263,6 +289,12 @@ li {
 }
 
 .pimp{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pimp2{
     position: relative;
     font-size: 1rem;
     padding-left: 10%;
@@ -743,8 +775,8 @@ p {
     height: 4000px;
 }
 
-.px7800{
-    height: 9000px;
+.px9000{
+    height: 9200px;
 }
 
 .vw20{
