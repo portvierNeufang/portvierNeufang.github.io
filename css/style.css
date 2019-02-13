@@ -693,7 +693,7 @@ p {
 }
 
 .containerImpressumLeft{
-    position: absolute;
+    position: fixed;
     padding-left: 10%;
     width:50%;
     left: 0;
@@ -1093,6 +1093,7 @@ p {
     left: 0;
 }
 
+
 /*Paragraphs------------------------------------*/
 .description{
     top: 0;
@@ -1109,6 +1110,10 @@ p {
 
 .absolute{
     position: absolute;
+}
+
+.fixed{
+    position: fixed;
 }
 
 .middle{
