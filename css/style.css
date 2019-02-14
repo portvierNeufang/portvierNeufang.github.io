@@ -150,7 +150,7 @@
 
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) and (max-width: 2200px) {
     p {
         /*background-color: blue;*/
         font-size: 1.5vw;
@@ -217,6 +217,77 @@
 
     .pimp{
         font-size: 0.75vw;
+    }
+
+}
+
+@media only screen and (min-width: 2200px) {
+    p {
+        /*background-color: blue;*/
+        font-size: 1.5vw;
+    }
+
+    h1 {
+        /*background-color: green;*/
+        font-size: 2vw;
+    }
+
+    h2 {
+        /*background-color: green;*/
+        font-size: 2vw;
+    }
+
+    li {
+        font-size: 0.65vw;
+    }
+
+    .size25{
+        font-size: 1.1vw;
+    }
+
+    .px1000vw{
+        height: 50vw;
+    }
+
+    .px1500vw{
+        height: 75vw;
+    }
+
+    .socialIcons{
+        width: 100%;
+    }
+
+    .headerContainer{
+        height: 100px;
+    }
+
+    .menuLogo {
+        top: 50px;
+    }
+
+    .menuButton {
+        top: 50px;
+    }
+
+    .placeHolder{
+        height: 100px;
+    }
+
+    .sideMenue{
+        width:5vw;
+    }
+
+    .description{
+        left: 15%;
+    }
+
+    
+    .h1imp2{
+        font-size: 0.85vw;
+    }
+
+    .pimp{
+        font-size: 0.65vw;
     }
 
 }
