@@ -54,6 +54,16 @@
 
 @media (max-width: 1920px) {
     .section-redeem a {
+        font-size: 1.5rem;
+    }
+
+    #ArrowLeft {
+        width: 1rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .section-redeem a {
         font-size: 1rem;
     }
 
