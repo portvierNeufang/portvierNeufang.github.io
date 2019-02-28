@@ -14,9 +14,9 @@
 #section-coupon__content__h1 {
     color: #008585;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0 auto 5vw auto;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0 100px 0 100px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .products__product img {
-    width: 35rem;
+    width: 45rem;
     display: block;
 }
 
@@ -42,6 +42,38 @@
 
 .products__product p :first-child {
     font-weight: 700;
+}
+
+
+
+
+
+@media (max-width: 1920px) {
+    #section-coupon__content__h1 {
+        font-size: 3rem;
+    }
+
+    .products__product img {
+        width: 35rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    #section-coupon {
+        padding-top: 8rem;
+        
+    }
+
+    #section-coupon__content__h1 {
+        font-size: 2.5rem;
+        margin: 0 auto 3.8vw auto;
+    }
+
+    .products__product img {
+        width: 28rem;
+    }
+
+   
 }
 
 @media (max-width: 660px) {

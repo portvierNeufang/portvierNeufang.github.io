@@ -61,7 +61,7 @@ header {
 .header__logo {
     background-color: white;
     left: 0;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     z-index: 1;
 }
@@ -138,14 +138,21 @@ header {
         -ms-transform: translateY(-9px);
         -moz-transform: translateY(-9px);
         -o-transform: translateY(-9px);
-}
+    }
     .menu-toggle__hamburger::after {
         transform: translateY(4px);
         -webkit-transform: translateY(4px);
         -ms-transform: translateY(4px);
         -moz-transform: translateY(4px);
         -o-transform: translateY(4px);
+    }
 }
+
+@media (max-width: 1920px) {
+    .header__logo {
+        font-size: 2rem;
+    }
+
 }
 
 /*SITE-NAV----------------------------------------------------------------------------------------------*/
@@ -165,6 +172,7 @@ header {
 }
 .site-nav-desktop ul li a {
     font-weight: 700;
+    font-size: 1.5rem;
     color: #008585;
     display: inline;
     /*padding: 1.2rem 0 1.2rem 0;*/
@@ -230,6 +238,12 @@ header {
     .site-nav--open ul li a {
         font-size: 1.5rem;
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1920px) {
+    .site-nav-desktop ul li a {
+        font-size: 1rem;
     }
 }
 
