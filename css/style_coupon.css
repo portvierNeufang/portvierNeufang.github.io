@@ -23,13 +23,14 @@
 }
 
 .section-redeem a {
+    font-size: 2rem;
     color: #008585;
     display: block;
     margin: 2rem 0 2rem 0;
 }
 
 #ArrowLeft {
-    width: 0.75rem;
+    width: 1.5rem;
 }
 
 .section-redeem__content__right {
@@ -49,6 +50,16 @@
 
 #platzhalter {
     width: 100%;
+}
+
+@media (max-width: 1920px) {
+    .section-redeem a {
+        font-size: 1rem;
+    }
+
+    #ArrowLeft {
+        width: 0.75rem;
+    }
 }
 
 @media (max-width: 1000px) {
