@@ -1,0 +1,87 @@
+.section-redeem {
+    padding: 8rem 10rem 9.5rem 10rem;
+}
+
+.section-redeem__content {
+    display: flex;
+}
+
+.section-redeem__content__left {
+    display: inline-block; /*fallback*/
+    width: 50%;
+    margin-right: 1.5rem;
+}
+
+.section-redeem__content__left img {
+    width: 100%;
+}
+
+.section-redeem__content__left p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5A666B;
+}
+
+.section-redeem a {
+    color: #008585;
+    display: block;
+    margin: 2rem 0 2rem 0;
+}
+
+#ArrowLeft {
+    width: 0.75rem;
+}
+
+.section-redeem__content__right {
+    display: inline-block; /*fallback*/
+    vertical-align: top; /*fallback*/
+    width: 50%;
+    margin-left: 1.5rem;
+    /*height: 1000px;*/ /*Hier wird die Höhe des iframe angepasst.*/
+}
+
+.section-redeem__content__right iframe {
+    width: 100%;
+    height: 100%;
+    background-color: darkGrey;
+    /*border: none;*/
+}
+
+#platzhalter {
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .section-redeem__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-redeem__content__left {
+        width: 100%;
+        margin: 0;
+    }
+    .section-redeem__content__right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section-redeem__content__left p {
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-redeem {
+        padding: 5rem 0 0 0;
+    }
+
+    .section-redeem a { 
+        margin: 2rem 0 2rem 1rem;
+    }
+
+    .section-redeem__content__left p {
+        text-align: center;
+    }
+
+}
