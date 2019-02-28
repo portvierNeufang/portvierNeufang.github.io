@@ -25,6 +25,10 @@ h1 {
     margin-bottom: .75rem;
 }
 
+.section-text p a {
+    word-wrap: break-word;
+}
+
 @media (max-width: 1000px) {
     .section-text__content {
         margin: 10rem 1rem 10rem 1rem; 
