@@ -15,7 +15,16 @@
     color: #008585;
     font-weight: 700;
     font-size: 4rem;
-    margin: 0 auto 5vw auto;
+    margin: 0 auto 2vw auto;
+    max-width: 1400px;
+    padding: 0 100px 0 100px;
+}
+
+#section-coupon__content__p {
+    color: #008585;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0 auto 2vw auto;
     max-width: 1400px;
     padding: 0 100px 0 100px;
 }
@@ -73,7 +82,10 @@
         width: 28rem;
     }
 
-   
+    .products__product p {
+        font-size: 1.25rem;
+        color: #5A666B;
+    }
 }
 
 @media (max-width: 660px) {
@@ -149,7 +161,7 @@
     display: none;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 1050px) {
     #section-function {
         padding: 6.5rem 0 5.5rem 0;
     }
