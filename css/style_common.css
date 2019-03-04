@@ -58,6 +58,11 @@ header {
     padding: .5rem 0 .5rem 1rem;
 }
 
+.header__content > span{
+    color: black;
+    font-size: 1rem;
+}
+
 .header__logo {
     background-color: white;
     left: 0;
@@ -77,6 +82,12 @@ header {
     font-weight: 700;
 }
 
+.header__logo-p3 {
+    color: #008585;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
 .menu-toggle {
     display: none;
 }
@@ -88,7 +99,7 @@ header {
 
 }
 
-@media (max-width: 670px) {
+@media (max-width: 920px) {
     .menu-toggle {
         display: block;
         padding: 1.75rem .6rem .5rem .6rem;
@@ -155,6 +166,29 @@ header {
     }
 }
 
+@media (max-width: 550px) {
+    .header__content {
+        height: 3.5rem;
+    }
+
+    .header__logo {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .header__content {
+        height: 3.5rem;
+        width: 90%;
+    }
+
+    .header__logo {
+        font-size: 1rem;
+    }
+
+}
+
 
 
 /*SITE-NAV----------------------------------------------------------------------------------------------*/
@@ -219,7 +253,7 @@ header {
 }
 
 
-@media (max-width: 670px) {
+@media (max-width: 920px) {
 
     .site-nav-desktop {
         display: none;
