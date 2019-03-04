@@ -62,7 +62,7 @@ header {
 }
 
 .header__content > span{
-    color: black;
+    color: #707F87;
     font-size: 1rem;
 }
 
@@ -72,6 +72,8 @@ header {
     font-size: 3rem;
     text-transform: uppercase;
     z-index: 1;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 
@@ -83,12 +85,6 @@ header {
 .header__logo-p2 {
     color: #008585;
     font-weight: 700;
-}
-
-.header__logo-p3 {
-    color: #008585;
-    font-weight: 400;
-    text-transform: lowercase;
 }
 
 .menu-toggle {
@@ -338,6 +334,10 @@ hr {
 
 .footer__content div p a {
     color: #707070;
+}
+
+.footer__content div p a:hover {
+    color: #008585;
 }
 
 @media (max-width: 1920px) {

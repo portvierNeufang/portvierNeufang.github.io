@@ -2,6 +2,16 @@
     padding: 8rem 10rem 9.5rem 10rem;
 }
 
+.section-redeem > p {
+    font-size: 1rem;
+}
+
+.section-redeem > h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #008585;
+}
+
 .section-redeem__content {
     display: flex;
 }
@@ -13,7 +23,7 @@
     font-size: 1.5rem;
     margin: 0 auto 2vw auto;
     max-width: 1400px;
-    padding: 0 100px 0 100px;
+    padding: 0 1rem 0 1rem;
     text-align: center;
 }
 
@@ -103,6 +113,16 @@
     }
 }
 
+@media (max-width: 900px) {
+    #section-redeem__content__p {
+        font-size: 0.75rem;
+    }
+    
+    .section-redeem > h1 {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 800px) {
     .section-redeem {
         padding: 5rem 0 0 0;
@@ -116,4 +136,16 @@
         text-align: center;
     }
 
+}
+
+
+
+@media (max-width: 400px) {
+    #section-redeem__content__p {
+        font-size: 0.5rem;
+    }
+    
+    .section-redeem > h1 {
+        font-size: 1rem;
+    }
 }

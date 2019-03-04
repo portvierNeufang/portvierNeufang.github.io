@@ -25,8 +25,13 @@ h1 {
     margin-bottom: .75rem;
 }
 
+.section-text p {
+    padding-bottom: 0.5rem;
+}
+
 .section-text p a {
     word-wrap: break-word;
+    color: #008585;
 }
 
 @media (max-width: 1000px) {
