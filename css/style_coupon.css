@@ -60,7 +60,7 @@
     vertical-align: top; /*fallback*/
     width: 50%;
     margin-left: 1.5rem;
-    /*height: 1000px;*/ /*Hier wird die Höhe des iframe angepasst.*/
+    height: 750px; /*Hier wird die Höhe des iframe angepasst.*/
 }
 
 .section-redeem__content__right iframe {
@@ -91,6 +91,10 @@
 
     #ArrowLeft {
         width: 0.75rem;
+    }
+
+    .section-redeem__content__right {
+        height: 850px;
     }
 }
 
@@ -148,5 +152,9 @@
     
     .section-redeem > h1 {
         font-size: 1rem;
+    }
+
+    .section-redeem__content__right {
+        height: 900px;
     }
 }
