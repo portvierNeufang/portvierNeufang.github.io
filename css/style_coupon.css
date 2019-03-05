@@ -2,15 +2,6 @@
     padding: 8rem 10rem 9.5rem 10rem;
 }
 
-.section-redeem > p {
-    color: #008585;
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin: 0 auto 2vw auto;
-    max-width: 1400px;
-    padding: 0 1rem 0 1rem;
-}
-
 .section-redeem > h1 {
     text-align: center;
     font-weight: 700;
@@ -29,8 +20,8 @@
     display: block;
     color: #008585;
     font-weight: 400;
-    font-size: 1.5rem;
-    margin: 0 auto 2vw auto;
+    font-size: 1rem;
+    margin: 0 auto 0 auto;
     max-width: 1400px;
     padding: 0 1rem 0 1rem;
     text-align: center;
@@ -73,7 +64,6 @@
 
 .section-redeem__content__right iframe {
     width: 100%;
-    background-color: darkGrey;
     /*border: none;*/
 }
 
@@ -84,10 +74,6 @@
 @media (max-width: 1920px) {
     .section-redeem > h1 {
         font-size: 3rem;
-    }
-
-    .section-redeem > p {
-        font-size: 1rem;
     }
 
     .section-redeem a {
