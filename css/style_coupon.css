@@ -69,10 +69,10 @@
 }
 
 .section-redeem__content__right p {
-    max-width: 600px;
     margin: 0 auto 0 auto;
     padding-bottom: 0.5rem;
     font-size: 0.7rem;
+    text-align: left;
 }
 
 .section-redeem__content__right p > a{
