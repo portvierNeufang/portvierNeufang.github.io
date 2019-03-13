@@ -3,195 +3,163 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
+<!--link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"-->
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>APOBON</title>
-<meta name="description" content="Sichern Sie sich jetzt Ihren Rabatt mit Apobon, einem Service von Apovid.">
-<meta name="keywords" content="Apobon">
+<title>Restaurant Etolié</title>
+<meta name="description" content="Seit 1982 heißt Léa Linster Sie in einem mit einem Michelin-Stern ausgezeichneten Restaurant willkommen, das etwa 10 km vom Zentrum von Luxemburg entfernt liegt.">
+<meta name="keywords" content="Restaurant">
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-<link rel="stylesheet" href="css/style_common.css">
-<link rel="stylesheet" href="css/style_index.css">
+<link rel="stylesheet" href="css/style.css">
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery-ui-1.11.2.min.js"></script>
 
 </head>
 
-<body>
-    <header>
-        <div class="header__content">
-            <a href="#section-coupon" class="header__logo">
-                <span class="header__logo-p1">apo-</span><span class="header__logo-p2">bon</span><!--
-         --></a><!--
-         --><span>.de ein Service von <a href="https://www.apovid.de/" target="_blank">APOVID</a></span>
-            <nav class="site-nav-desktop">
-                <ul>
-                    <li><a href="#section-coupon">Rabatt erhalten</a></li><!--
-                --><li><a href="#section-function">Wie es funktioniert</a></li><!--
-                --><li><a href="#section-about">Über Apovid</a></li>
-                </ul>
-            </nav>
+<header class="header">
+    <div class="header__container">
+        <a href="index.html" class="header__logo">
+            <img src="img/logo_l_b.png">
+        </a>
+        <nav class="site-nav">
+            <ul class="site-nav__navigation">
+                <li class="site-nav__element site-nav__element--navi"><a href="restaurant.html">Restaurant</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="carte.html">Menü</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="info.html">Info</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="reservation.html">Reservierung</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="shop.html">Kochkurs & Gutschein</a></li>
+            </ul>
+            <ul class="site-nav__language">
+                <li class="site-nav__element site-nav__element--lang site-nav__element--active"><a href="#">Fr</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">De</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">En</a></li>
+            </ul>
+        </nav>
 
-            <nav class="site-nav-mobile">
-                <ul>
-                    <li><a href="#section-coupon" class="site-nav__element">Rabatt erhalten</a></li><!--
-                --><li><a href="#section-function" class="site-nav__element">Wie es funktioniert</a></li><!--
-                --><li><a href="#section-about" class="site-nav__element">Über Apovid</a></li>
-                </ul>
-            </nav>
 
-            <div class="menu-toggle">
-                <div class="menu-toggle__hamburger"></div>
-                <!--p class="menu-toggle__label">MENÜ</p-->
-            </div>
+
+        <!--div class="site-nav site-nav__left">
+            <img src="img/logo_l.png" class="site-nav__element site-nav__right__logo">
         </div>
-    </header>
-
-    <section id="section-coupon">
-        <article id="section-coupon__content">
-            <h1 id="section-coupon__content__h1">Jetzt Rabatt sichern und Kassenbon hochladen</h1>
-            <div id="products">
-
-                <a href="coupon_hylo.html" class="products__product">
-                    <div class="products__caption">
-                        <p>
-                            <span>HYLO CARE 10&nbsp;ml</span>
-                        </p>
-                    </div>
-                    <img src="img/hylo_price.jpg">
-                    <button>Jetzt Rabatt erhalten</button>
-                </a><!--
-             --><a href="coupon_aronia.html" class="products__product">
-                    <div class="products__caption">
-                        <p>
-                            <span>aronia+ immun 14x25&nbsp;ml</span>
-                        </p>
-                    </div>
-                    <img src="img/aronia_price.jpg"><!--
-                 --><button>Jetzt Rabatt erhalten</button>
-                </a>
-                <p id="section-coupon__content__p">Nur gültig in Verbindung mit teilnehmenden APOVID Apotheken und solange der Vorrat reicht.</p>
-            </div><!--products-->
-        </article>
-    </section>
-
-    <section id="section-function">
-        <article id="section-function__content">
-                <h1 id="section-function__content__h1">Wie es funktioniert</h1>
-                <div id="functions">
-
-                    <div class="function">
-                        <img src="img/buy.svg">
-                        <p>Schritt 1</p>
-                        <p>Produkt kaufen</p>
-                    </div><!--
-                 --><div class="functions-seperator"></div><!--
-                 --><div class="function">
-                        <img src="img/photo.svg">
-                        <p>Schritt 2</p>
-                        <p>Kassenbon fotografieren</p>
-                    </div><!--
-                 --><div class="functions-seperator"></div><!--
-                 --><div class="function">
-                        <img src="img/upload.svg">
-                        <p>Schritt 3</p>
-                        <p>unter <a href="#section-coupon">www.apo-bon.de</a> hochladen</p>
-                    </div><!--
-                    --><div class="functions-seperator"></div><!--
-                    --><div class="function">
-                        <img src="img/money.svg">
-                        <p>Schritt 4</p>
-                        <p>Rabatt erhalten</p>
-                    </div>
-
-                </div><!--functions-->
-        </article>
-    </section>
+        
+        <div class="site-nav site-nav__right">
+            <ul class="site-nav__navigation">
+                <li class="site-nav__element site-nav__element--navi site-nav__element--active"><a href="#section-0">Restaurant</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="#section-1">Menü</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="#section-2">Info</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="#section-2">Reservierung</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="#section-2a">Shop</a></li>
+            </ul>
+            <ul class="site-nav__language">
+                <li class="site-nav__element site-nav__element--lang"><a href="#">Fr</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">De</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">En</a></li>
+            </ul>
+        </div-->
 
 
-    <section id="section-about">
-        <div class="section-about__wrapper"><!--für max-width-->
-            <article id="section-about__content">
-                <div id="section-about__content--left">
-                    <img src="img/Apovid-Logo.svg">
-                </div><!--
-            --><div id="section-about__content--right">
-                    <p>Die Apovid GmbH mit Sitz in München verfügt über 
-                    langjährige Erfahrung im Bereich Apothekenwesen und 
-                    Digital Signage. Gemeinsam mit Apothekern entwickelte 
-                    Apovid das OTC-System &ndash; ein modernes 
-                    Marketinginstrument, von dem Apotheken und 
-                    Werbekunden gleichermaßen profitieren.
-                    </p>
-                    <a href="https://www.apovid.de/ueber-uns/" target="_blank">Zur Homepage</a>
-                </div>
-            </article>
+
+        <!--div class="menu-toggle">
+            <div class="menu-toggle__hamburger"></div>
+            <p class="menu-toggle__label">MENÜ</p>
+        </div-->
+    </div><!--header__container-->
+</header>
+
+<body class="body">
+
+    <section class="section section--hero section--hero--landing">
+        <div class="hero hero--image--center hero--image--img1">
+            <div class="hero__content hero__content--landing hero__content--wht hero__content--wht--index">
+                <h1 class="hero__content__h1">Willkommen</h1>
+                <h2 class="hero__content__h2">in Léa Linster‘s Restaurant Étoilé</h2>
+                <a class="btn btn--blk">Mehr erfahren</a><!--<br>▼-->
+            </div>
         </div>
     </section>
 
-
-    <footer>
-        <hr>
-        <div class="footer__content">
-            <div>
-                <img src="img/footer_home.svg">
-                <p>
-                    Apovid GmbH<br>
-                    Kistlerhofstraße 70<br>
-                    Haus 5 | Gebäude 188<br>
-                    81379 München
-                </p>
+    <section class="section section--hero section--hero--landing">
+        <div class="hero hero--image--center--top hero--image--img3">
+            <div class="hero__content hero__content--landing hero__content--wht">
+                <h1 class="hero__content__h1">Das Restaurant</h1>
+                <p class="hero__content__p">Seit 1982 heißt Léa Linster Sie in einem mit einem Michelin-Stern ausgezeichneten Restaurant willkommen, das etwa 10 km vom Zentrum von Luxemburg entfernt liegt. Hier lädt eine entspannte Umgebung zum Austausch der gastronomischen Kultur und der hohen Kunst des Tafelns.</p>
+                <a class="btn btn--blk">Mehr über das Restaurant</a>
             </div>
-            <div>
-                <img src="img/footer_phone.svg">
-                <p>
-                    Tel.: 089 288 540 10<br>
-                    Fax: 089 288 540 99<br>
-                    E-Mail: <a href="mailto:info@apovid.de">info@apovid.de</a><br>
-                    <a href="https://www.apovid.de" target="_blank">www.apovid.de</a>
-                </p>
-            </div>
-            <div>
-                <img src="img/footer_info.svg">
-                <p>
-                    <a href="imprint.html">Impressum</a><br>
-                    <a href="data.html">Datenschutz</a>
-                </p>
+            <div class="container-logos">
+                <img src="img/michelin.png" class="logo-img">
+                <img src="img/bocuse.png" class="logo-img">
             </div>
         </div>
+    </section>
+
+    <!--section class="section section--hero section--hero--main">
+        <div class="hero hero--color">
+            <div class="hero__content hero__content--main hero__content--blk">
+                <img src="img/images/22.JPG" class="hero__content--main__img--square">
+                <h1 class="hero__content__h1">Das Restaurant</h1>
+                <p class="hero__content__p">Seit 1982 heißt Léa Linster Sie in einem mit einem Michelin-Stern ausgezeichneten Restaurant willkommen, das etwa 10 km vom Zentrum von Luxemburg entfernt liegt. Hier lädt eine entspannte Umgebung zum Austausch der gastronomischen Kultur und der hohen Kunst des Tafelns.</p>
+                <a class="btn btn--blk">Mehr über das Restaurant</a>
+            </div>
+        </div>
+    </section-->
+
+    <section class="section section--hero section--hero--main">
+        <div class="hero hero--image--center hero--image--img2">
+            <div class="hero__content hero__content--main hero__content--wht">
+                <h1 class="hero__content__h1">Das Menü</h1>
+                <p class="hero__content__p">Wählen Sie eines unserer drei Menüs kreiert von Louis Linster.</p>
+                <a class="btn btn--blk">Mehr über das Restaurant</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="img/logo_l_b.png" class="footer--img">
+        <hr class="footer--hr">
+        <a class="footer--link">Impressum</a>
+        <a class="footer--link">Datenschutz</a>
+        <p class="footer--paragraph">© 2019 Lea Linster</p>
     </footer>
+
 </body>
-
-
-
 
 <script>
     //MENÜ ÖFFNEN & SCHLIESSEN MIT BUTTON
     $('.menu-toggle').click(function(){
-        $('.site-nav-mobile').toggleClass('site-nav--open', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+        $('.site-nav').toggleClass('site-nav--open', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
         $(this).toggleClass('menu-toggle--open', 500);
     });
     //MENÜ ÖFFNEN & SCHLIESSEN MIT LINK
     $('.site-nav__element').click(function(){
-        $('.site-nav-mobile').toggleClass('site-nav--open', 500);
+        $('.site-nav').toggleClass('site-nav--open', 500);
         $('.menu-toggle').toggleClass('menu-toggle--open', 500);
     });
-
-
-
-    //SCROLLE ZU SEKTION BEI KLICK AUF LINK
+    //GEHE ZU SEKTION BEI KLICK AUF LINK
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
     });
-
-
-    
     //POSITION BEI OFFENER NAVI FIX
     /*if($('.site-nav').hasClass('site-nav--open')) {
         $('body').addClass('fixedPosition');
@@ -201,6 +169,30 @@
         $('body').removeClass('fixedPosition');
         console.log('unfixed');
     }*/
+
+    //VIDEO
+    function openModal_marpingen() {
+        //document.getElementById('myModal-Marpingen').style.display = "block";
+        $('#myModal-Marpingen').addClass("visible");
+        //document.getElementById('body').style.overflow = "hidden";
+        $('#body').addClass("noScroll");
+    }
+    function closeModal_marpingen() {
+        //document.getElementById('myModal-Marpingen').style.display = "none";
+        $('#myModal-Marpingen').removeClass("visible");
+        //document.getElementById('body').style.overflow = "auto";
+        $('#body').removeClass("noScroll");
+        document.getElementById('vid-marpingen').pause();
+    }
+
+    //ÖFFNE OVERLAY OFFERING
+    $('.studio__eyecatcher--offering').click(function(){
+        $('.overlay').toggleClass('overlay--closed', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+    });
+    //SCHLIESSE OVERLAY OFFERING
+    $('.btn--close').click(function(){
+        $('.overlay').toggleClass('overlay--closed', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+    });
     
 </script>
 </html>

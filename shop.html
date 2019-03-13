@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Restaurant Etolié</title>
+<meta name="description" content="Jemand anderem eine Freude bereiten! Dieser Aufgabenstellung stellt sich Movi Fit! Neben der hohen Qualität unserer Leistungsangebote, dem lizensierten Personal, dem ausgiebigen Kursangebot und den übrigen, hochwertigen Konzeptinhalten, steht für uns das Wohl eines jeden einzelnen Kunden an oberster Stelle. Unser Service wird auf den einzelnen Kunden ausgerichtet, nicht auf die Masse!">
+<meta name="keywords" content="Restaurant">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.11.2.min.js"></script>
+
+</head>
+
+<header class="header">
+    <div class="header__container">
+        <a href="index.html" class="header__logo">
+            <img src="img/logo_l_b.png">
+        </a>
+        <nav class="site-nav">
+            <ul class="site-nav__navigation">
+                <li class="site-nav__element site-nav__element--navi"><a href="restaurant.html">Restaurant</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="carte.html">Menü</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="info.html">Info</a></li>
+                <li class="site-nav__element site-nav__element--navi"><a href="reservation.html">Reservierung</a></li>
+                <li class="site-nav__element site-nav__element--navi site-nav__element--active"><a href="shop.html">Kochkurs & Gutschein</a></li>
+            </ul>
+            <ul class="site-nav__language">
+                <li class="site-nav__element site-nav__element--lang site-nav__element--active"><a href="#">Fr</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">De</a></li>
+                <li class="site-nav__element site-nav__element--lang"><a href="#">En</a></li>
+            </ul>
+        </nav>
+    </div><!--header__container-->
+</header>
+
+<body class="body">
+
+    <section class="section section--hero section--hero--landing">
+        <div class="hero hero--image--center--40 hero--image--img-shop-2">
+            <div class="hero__content hero__content--landing hero__content--wht">
+                <h1 class="hero__content__h1">Kochkurs & Gutschein</h1>
+                <p class="hero__content__p">Hier finden Sie unsere Kochkurse und Gutscheine.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--section class="section section--menu"-->
+    <section class="section">
+        <div class="tabnav">
+            <button class="btn btn--tab btn--tab--active" onclick="openTab('kochkurs', this)">Kochkurse</button>
+            <button class="btn btn--tab" onclick="openTab('gutschein', this)">Gutscheine</button>
+        </div>
+    </section>
+
+    <div id="kochkurs" class="tab fade-tab">
+
+        <section class="tabbody">
+            <div class="#">
+                <h1 class="h1">Unsere Kochkurse</h1>
+                <p class="para">Reservieren Sie Kochkurse direkt online<br>oder melden Sie sich an unter:</p>
+                <p class="para--bld">info@lealinster.lu<br>+352 23 66 84 11</p>
+                <p class="para">Bei größeren Gruppen bitten wir um telefonische Reservierung.</p>
+            </div>
+        </section>
+
+
+        <section class="section section--full section--full__image section--full--img-shop1">
+
+            <div class="section--full__container">
+
+                <div class="section--full__container__segment">
+                    <h2 class="h2 h2--no-underline">Termine</h2>
+
+                    <div class="container--form">
+
+                        <form class="form form--voucher">
+                            <!--div class="form--voucher__head">
+                                <div class="form--voucher__head__cell">
+                                    <span class="label--amount">Anzahl</span>
+                                </div>
+                                <div class="form--voucher__head__cell">
+                                    <span class="label--amount">Produkt</span>
+                                </div>
+                                <div class="form--voucher__head__cell">
+                                    <span class="label--amount">Preis</span>
+                                </div>
+                            </div-->
+
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">11. 04. 2019</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">13. 06. 2019</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">10. 10. 2019</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">07. 11. 2019</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">05. 12. 2019</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <hr class="hr section--full__container__segment__hr">
+                    <div class="container--form">
+                        <p class="voucher__amount">Zu zahlen: <span>999€</span></p>
+                        <a class="btn btn--blk">Kaufen</a>
+                    </div>
+
+                </div> <!--section--full__container__segment-->
+            </div> <!--section--full__container-->
+
+        </section><!--section section--menu-->
+
+    </div><!--tab-->
+
+
+    <div id="gutschein" class="tab fade-tab" style="display: none;">
+
+        <section class="tabbody">
+            <div class="#">
+                <h1 class="h1">Unsere Gutscheine</h1>
+                <p class="para">Kaufen Sie Gutscheine direkt online<br>oder melden Sie sich an unter:</p>
+                <p class="para--bld">info@lealinster.lu<br>+352 23 66 84 11</p>
+            </div>
+        </section>
+
+
+        <section class="section section--full section--full__image section--full--img-shop2">
+
+            <div class="section--full__container">
+
+                <div class="section--full__container__segment">
+                    <h2 class="h2 h2--no-underline">Menüs</h2>
+
+                    <div class="container--form">
+                        <form class="form form--voucher">
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-1" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-1">Menü 4 Gänge</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-1">129,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-2" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-2">Menü 4 Gänge  + Weinbegleitung</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-2">197,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-3" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-3">Menü 6 Gänge</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-3">169,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-4" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-4">Menü 6 Gänge  + Weinbegleitung</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-4">259,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-5" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-5">Menü 7 Gänge</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-5">189,00€ p.P.</span>
+                                </div>
+                            </div>
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell">
+                                    <input type="text" name="amount-6" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="descritpion-6">Menü 7 Gänge + Weinbegleitung</span>
+                                </div>
+                                <div class="form--voucher__cell">
+                                    <span class="price-6">289,00€ p.P.</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+    
+                    <h2 class="h2 h2--no-underline">Eigener Betrag</h2>
+                    <p class="para">Bitte geben Sie einen Betrag ein. (min. 200€)</p>
+                    <div class="container--form">
+                        
+                        <form class="form form--voucher">
+                            <div class="form--voucher__row">
+                                <div class="form--voucher__cell--own">
+                                    <input type="text" name="amount-7" value="00" class="input--amount">
+                                    <span class="label--amount">x</span>
+                                </div>
+                                <div class="form--voucher__cell--own">
+                                    <input type="text" name="value" value="200" class="input--own">
+                                    <span class="label--amount--own">€</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <h2 class="h2 h2--no-underline">Gutscheintext</h2>
+                    <div class="container--form">
+                        <form class="form form--voucher">
+                            <textarea rows="4" cols="30" name="comment" class="form--voucher__textarea" placeholder="Bitte Gutscheintext eingeben…"></textarea> <!--form="usrform"-->
+                        </form>
+                    </div>
+                    <hr class="hr section--full__container__segment__hr">
+                    <div class="container--form">
+                        <p class="voucher__amount">Zu zahlen: <span>999€</span></p>
+                        <a class="btn btn--blk">Kaufen</a>
+                    </div>
+
+                </div> <!--section--full__container__segment-->
+            </div> <!--section--full__container tab-->
+
+        </section>
+
+    </div><!--tab-->
+
+
+
+    <footer class="footer">
+        <img src="img/logo_l_b.png" class="footer--img">
+        <hr class="footer--hr">
+        <a class="footer--link">Impressum</a>
+        <a class="footer--link">Datenschutz</a>
+        <p class="footer--paragraph">© 2019 Lea Linster</p>
+    </footer>
+
+</body>
+
+<script>
+    function openTab(tabName, clicked) {
+        var i;
+        var x = document.getElementsByClassName("tab");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+        document.getElementById(tabName).style.display = "block";
+        //document.querySelector(".btn--tab").style.color = "red";
+        var btns = document.getElementsByClassName("btn--tab");
+        for(i=0;i<btns.length;i++){
+            btns[i].classList.remove("btn--tab--active");
+        }
+        clicked.classList.add("btn--tab--active");
+    }
+</script>
+
+<script>
+    //MENÜ ÖFFNEN & SCHLIESSEN MIT BUTTON
+    $('.menu-toggle').click(function(){
+        $('.site-nav').toggleClass('site-nav--open', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+        $(this).toggleClass('menu-toggle--open', 500);
+    });
+    //MENÜ ÖFFNEN & SCHLIESSEN MIT LINK
+    $('.site-nav__element').click(function(){
+        $('.site-nav').toggleClass('site-nav--open', 500);
+        $('.menu-toggle').toggleClass('menu-toggle--open', 500);
+    });
+    //GEHE ZU SEKTION BEI KLICK AUF LINK
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
+    //POSITION BEI OFFENER NAVI FIX
+    /*if($('.site-nav').hasClass('site-nav--open')) {
+        $('body').addClass('fixedPosition');
+        console.log('fixed');
+    }
+    else {
+        $('body').removeClass('fixedPosition');
+        console.log('unfixed');
+    }*/
+
+    //VIDEO
+    function openModal_marpingen() {
+        //document.getElementById('myModal-Marpingen').style.display = "block";
+        $('#myModal-Marpingen').addClass("visible");
+        //document.getElementById('body').style.overflow = "hidden";
+        $('#body').addClass("noScroll");
+    }
+    function closeModal_marpingen() {
+        //document.getElementById('myModal-Marpingen').style.display = "none";
+        $('#myModal-Marpingen').removeClass("visible");
+        //document.getElementById('body').style.overflow = "auto";
+        $('#body').removeClass("noScroll");
+        document.getElementById('vid-marpingen').pause();
+    }
+
+    //ÖFFNE OVERLAY OFFERING
+    $('.studio__eyecatcher--offering').click(function(){
+        $('.overlay').toggleClass('overlay--closed', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+    });
+    //SCHLIESSE OVERLAY OFFERING
+    $('.btn--close').click(function(){
+        $('.overlay').toggleClass('overlay--closed', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
+    });
+    
+</script>
+</html>
