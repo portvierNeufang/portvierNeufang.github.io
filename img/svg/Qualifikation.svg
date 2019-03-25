@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Gruppe_400" data-name="Gruppe 400" transform="translate(-325 -1643)">
+    <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(325 1643)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_167" data-name="Gruppe 167" transform="translate(172.221 1290.214)">
+      <path id="Pfad_135" data-name="Pfad 135" d="M229.65,431.988l-1.25-14.794c-.864-5.222-4.978-5.359-4.978-5.359H210.877L208.9,399.874a3.367,3.367,0,0,0-6.638,1.1l2.59,15.663,1.256,7.592-6.779-4.848a3.238,3.238,0,0,0-4.51.722l-.289.4a3.236,3.236,0,0,0,.721,4.509l14.936,10.721" transform="translate(-2.079 -3.442)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Pfad_136" data-name="Pfad 136" d="M197.537,403.452l-10.577,6.1,2.779-13.121-9.959-8.983,13.339-1.41,5.462-12.249,5.463,12.249,13.339,1.41L209.76,394.4" transform="translate(0 0)" fill="none" stroke="#bd8c6e" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

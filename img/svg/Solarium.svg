@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Gruppe_392" data-name="Gruppe 392" transform="translate(-1524 -3613)">
+    <g id="Ellipse_86" data-name="Ellipse 86" transform="translate(1524 3613)" fill="#0b0b0b" stroke="#000" stroke-width="5">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+    </g>
+    <g id="Gruppe_369" data-name="Gruppe 369" transform="translate(1507.181 3600.025)">
+      <g id="Gruppe_366" data-name="Gruppe 366" transform="translate(40.263 41.975)">
+        <g id="Gruppe_365" data-name="Gruppe 365" transform="translate(7.84 7.825)">
+          <g id="Gruppe_363" data-name="Gruppe 363">
+            <line id="Linie_313" data-name="Linie 313" x2="4.901" y2="2.03" transform="translate(0 11.194)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <line id="Linie_314" data-name="Linie 314" x2="2.074" y2="4.983" transform="translate(11.176)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <line id="Linie_315" data-name="Linie 315" x1="8.303" y1="8.266" transform="translate(0.038 0.11)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+          <g id="Gruppe_364" data-name="Gruppe 364" transform="translate(24.958)">
+            <line id="Linie_316" data-name="Linie 316" x1="4.901" y2="2.03" transform="translate(8.349 11.194)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <line id="Linie_317" data-name="Linie 317" x1="2.074" y2="4.983" stroke-width="1.5" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <line id="Linie_318" data-name="Linie 318" y1="8.266" x2="8.303" transform="translate(4.91 0.11)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+        <path id="Pfad_189" data-name="Pfad 189" d="M84.062,78.04a10.994,10.994,0,1,0-20.654.036" transform="translate(-46.788 -47.342)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Linie_319" data-name="Linie 319" y1="11.689" transform="translate(26.944)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Linie_320" data-name="Linie 320" x2="11.689" transform="translate(42.201 26.945)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Linie_321" data-name="Linie 321" x2="11.686" transform="translate(0 26.945)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g id="Gruppe_367" data-name="Gruppe 367" transform="translate(36.819 74.532)">
+        <path id="Pfad_190" data-name="Pfad 190" d="M36.819,85.488s6.373,6.461,15.169,0h.034s6.373,6.461,15.168,0h.035s6.371,6.461,15.169,0h.034s6.372,6.461,15.169,0" transform="translate(-36.819 -85.488)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g id="Gruppe_368" data-name="Gruppe 368" transform="translate(44.421 82.473)">
+        <path id="Pfad_191" data-name="Pfad 191" d="M92.553,96.1c-8.8,6.461-15.169,0-15.169,0h-.035c-8.8,6.461-15.167,0-15.167,0h-.034c-8.8,6.461-15.169,0-15.169,0" transform="translate(-46.979 -96.1)" fill="none" stroke="#bd8c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

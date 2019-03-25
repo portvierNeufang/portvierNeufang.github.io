@@ -37,10 +37,22 @@
 <script src="js/toggle.js"></script>
 
 <script>
-    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-       window.location.href = 'mobileindex.html';
+    function send() {
+        var body_message = "Hallo Movimenti Team,%0D%0A%0D%0Aich interessiere mich für das Eröffnungsangebot.%0D%0A%0D%0AHier meine Daten:%0D%0A%0D%0A";
+    	var email = 'info@movi-menti.de';
+        var subject = 'Interesse am Eröffnungsangebot';
+        
+        body_message = body_message + "Name: " + document.getElementById('Name').value + "%0D%0A";
+        body_message = body_message + "Vorname: " + document.getElementById('Vorname').value + "%0D%0A";
+        body_message = body_message + "Geburtsdatum: " + document.getElementById('Geburtsdatum').value + "%0D%0A";
+        body_message = body_message + "Telefonnummer: " + document.getElementById('Telefonnummer').value + "%0D%0A";
+
+        var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + body_message;
+
+        window.open(mailto_link, 'emailWindow');
     }
 </script>
+
 
     <header class="header">
         <div class="headerContainer" id="Header">
@@ -432,209 +444,33 @@
     <!--PlaceHolder: Blocks Space below Header at the Start of Page-->
     <div class="placeHolder"></div>
 
-    <!--First BackgroundImage-->
-    <div class="sectionContainer black">
-        <img class="backgroundImage" src="img/images/Movimenti-1.jpg"/>
-        <div class="containerRight">
-            <h1 class="top75 left10px">Sport und Gesundheit</h1>
-            <a id="openingStoerer" href="opening.html">
-                <img href="./opening.html" src="img/images/Stoerer_Moviemento_final.png"/>
-            </a>
-        </div>
-        <svg class="line" height="100%" width="100%">
-            <line x1="50%" y1="75%" x2="50%" y2="100%" style="stroke:black;stroke-width:5" />
-        </svg> 
-    </div>
-
-    <!--Section2: MOVIMENTI-->
-    <div class="sectionContainer darkGrey px400">
-        <div class="containerLeft">
-            <h2 class="inSectionTextFirstQuarter nowrap darkGrey front">Movimenti</h2>
-            <svg class="line" height="100%" width="100%">
-                <line x1="100%" y1="50%" x2="50%" y2="50%" style="stroke:black;stroke-width:5" />
-            </svg>
-        </div>
-        <div class="containerRight">
-            <p class="verticalmiddle left50px">Tranieren Sie nach den besten Methoden und mit den neuesten Trainingstechnologien:
-                <br><br>Im modernen Ambiente des neuen St. Ingberter Gebäudekomplexes P43!
-            </p>
-        </div>
-        <svg class="line" height="100%" width="100%">
-            <line x1="50%" y1="0%" x2="50%" y2="100%" style="stroke:black;stroke-width:5" />
-        </svg>
-        
-    </div>
-    
-    <!--Section3: Das ist Movimenti-->
-    <div class="sectionContainer brown px1000">
-        <h1 class="top15 middle nowrap brown front">Das ist Movimenti</h1>
-        <div class="containerRightSection3">
-            <p class="size25 left50px verticalmiddle">Movimenti, das ist High Class Fitness auf Premium-Niveau. Qualifiziertes Fachpersonal,
-                neueste Erkenntnisse aus der Trainingswissenschaft und ausgeklügelte Betreuungskonzepte sprechen eine eindeutige Sprache.
-                <br><br>Wir entwickeln gemeinsam mit Ihnen Ihren individuellen Trainingsplan und ebnen Ihnen den Weg.
-                Sie müssen ihn dann nur noch bestreiten.
-            </p>
-        </div>
-        
-        <img class="imageLeft20 top50" src="img/svg/Termin-Vereinbaren.svg"/>
-        <div class="containerLeftSection3">
-            <p class="size25 left50px verticalmiddle">Vereinbaren Sie jetzt Ihren Termin bei Movimenti. Wir beraten Sie gerne und ausführlich zu all unseren Leistungen!</p>
-        </div>
-        
-        <button class="buttonLeft20 buttonTop80 buttonCommon" onmouseover="invertButton(this)" onmouseout="resetButton(this)" onclick="location.href='mailto:info@movi-menti.de'" type="button">Termin Vereinbaren</button>
-        <svg class="line" height="100%" width="100%">
-            <line x1="50%" y1="0%" x2="50%" y2="50%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-            <line x1="50%" y1="50%" x2="20%" y2="50%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-            <line x1="20%" y1="50%" x2="20%" y2="100%" style="stroke:black;stroke-width:5" />
-        </svg>
-    </div>
-
-    <!--Section4: P43-->
-    <div class="sectionContainer black">
-        <img class="backgroundImage" src="img/images/Movimenti-2.jpg"/>
-        <img class="imageP43" src="img/svg/P43.svg"/>
-        <svg class="line" height="100%" width="100%">
-            <line x1="20%" y1="0%" x2="20%" y2="20%" style="stroke:black;stroke-width:5" />
-        </svg>
-    </div>
-
-    <!--Section5: Services-->
-    <div class="sectionContainer darkGrey px1500">
-        <img class="imageFlower darkGrey front" src="img/svg/Movimenti-Blume.svg"/>
-        <h1 class="middle top15 darkGrey front">Leistungen</h1>
-        <!--Left Services Column-->
-        <div class="containerLeftSection4 top30 front">
-            <img class="imageCenter" src="img/svg/Professionelles-Fitness-und-Cardiotraining.svg"/>
-            <p class="description size25">Professionelles Fitness- und Cardiotraining</p>
-        </div>
-        <div class="containerLeftSection4 top38 front">
-            <img class="imageCenter" src="img/svg/Funktionelles-Training-mit-lizenzierten-Trainern-(1-1).svg"/>
-            <p class="description size25">Funktionelles Training mit lizenzierten Trainern (1:1)</p>
-        </div>
-        <div class="containerLeftSection4 top46 front">
-            <img class="imageCenter" src="img/svg/Beweglichkeits-und-Faszientraining.svg"/>
-            <p class="description size25">Beweglichkeits- und Faszientraining</p>
-        </div>
-        <div class="containerLeftSection4 top54 front">
-            <img class="imageCenter" src="img/svg/Kleingruppenkurse-im-Bereich-CrossFit.svg"/>
-            <p class="description size25">Kleingruppenkurse im Bereich CrossFit</p>
-        </div>
-        <div class="containerLeftSection4 top62 front">
-            <img class="imageCenter" src="img/svg/Kurstraining-mit-lizenziert-Trainern.svg"/>
-            <p class="description size25">Kurstraining mit lizenziert Trainern</p>
-        </div>
-        <div class="containerLeftSection4 top70 front">
-            <img class="imageCenter" src="img/svg/Massage.svg"/>
-            <p class="description size25">Massage</p>
-        </div>
-        <div class="containerLeftSection4 top78 front">
-            <img class="imageCenter" src="img/svg/Solarium.svg"/>
-            <p class="description size25">Solarium</p>
-        </div>
-        <!--Right Services Column-->
-        <div class="containerRightSection4 top30 front">
-            <img class="imageCenter" src="img/svg/Vollelektronisch-ueberwachtes-Kraft-und-Ausdauertraining.svg"/>
-            <p class="description size25">Vollelektronisch überwachtes Kraft- und Ausdauertraining</p>
-        </div>
-        <div class="containerRightSection4 top38 front">
-            <img class="imageCenter" src="img/svg/Vollelektronisch-ueberwachtes-Flextraining.svg"/>
-            <p class="description size25">Mobilitätstraining</p>
-        </div>
-        <div class="containerRightSection4 top46 front">
-            <img class="imageCenter" src="img/svg/Individueller-Trainingsplan.svg"/>
-            <p class="description size25">Individueller Trainingsplan</p>
-        </div>
-        <div class="containerRightSection4 top54 front">
-            <img class="imageCenter" src="img/svg/Getraenke-und-Saftbar .svg"/>
-            <p class="description size25">Getränke- und Kaffeebar</p>
-        </div>
-        <div class="containerRightSection4 top62 front">
-            <img class="imageCenter" src="img/svg/Individuelle-Ernaehrungsberatung.svg"/>
-            <p class="description size25">Individuelle Ernährungsberatung</p>
-        </div>
-        <div class="containerRightSection4 top70 front">
-            <img class="imageCenter" src="img/svg/Sauna.svg"/>
-            <p class="description size25">Sauna</p>
-        </div>
-
-        <button class="buttonLeft60 buttonTop80 buttonCommon" onmouseover="invertButton(this)" onmouseout="resetButton(this)" onclick="location.href='mailto:info@movi-menti.de'" type="button">Mitglied werden</button>
-
-        <svg class="line" height="100%" width="100%">
-            <line x1="50%" y1="0%" x2="50%" y2="25%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-            <line x1="25%" y1="25%" x2="60%" y2="25%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-            <line x1="25%" y1="25%" x2="25%" y2="78%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-            <line x1="60%" y1="25%" x2="60%" y2="100%" style="stroke:black;stroke-width:5" />
-        </svg>
-    </div>
-    
-    <!--Section6: Video-->
-    <div class="sectionContainer black">
-        <img class="backgroundImage" src="img/images/Movimenti-3.jpg"/>
-    </div>
-
-    <!--Section8: Customers-->
-    <!--
-
-    <div class="sectionContainer brown px1000vw">
-        <h1 class="middle top10 nowrap">Das sagen unsere Kunden</h1>
-        <img class="imageFlower imageCenter top25" src="img/svg/Movimenti-Blume.svg"/>
-        
-        <div class="containerLeftSection7">
-            <img class="imageInContainer80 imageCenter left50 top40 absolute front" src="img/svg/Avatar-Mann.svg"/>
-            <div class="containerQuoteSection7">
-                    <h1 class="middle top75 nowrap">Simon</h1>
-                    <p class="top85">"Unter jedem Bild steht ein Zitat des Kunden."</p>
+    <!--Formular-->
+    <div id="sectionContainerFormular" class="brown">
+        <div id="containerOpeningFormular">
+            <form action="mailto:info@movi-menti.de?subject=Interesse%20am%20Eröffnungsangebot&amp;body=Hallo%20Movimenti%20Team,%0D%0A%0D%0Aich%20interessiere%20mich%20für%20das%20Eröffnungsangebot.%0D%0A%0D%0AHier%20meine%20Daten:%0D%0A" method="post" enctype="text/plain">
+            <br>
+            <img src="img/svg/Movimenti-Logo_vertikal.svg"/>
+            <br><br>
+            <h1>Sport und Gesundheit</h1>
+            <br><br>
+            <p>Ich interessiere mich für das Eröffnungsangebot.</p><br>
+            <p>Bitte kontaktieren Sie mich für weitere Informationen.</p><br>
+            <p>Meine Daten gebe ich hier an:</p><br><br>
+            <div id="containerInputs">
+                <p>Name</p><br>
+                <input id="Name" class="inputText" type="text" name="Name"><br><br>
+                <p>Vorname</p><br>
+                <input id="Vorname" class="inputText" type="text" name="Vorname"><br><br>
+                <p>Geburtsdatum</p><br>
+                <input id="Geburtsdatum" class="inputText" type="text" name="Geburtsdatum"><br><br>
+                <p>Telefonnummer</p><br>
+                <input id="Telefonnummer" class="inputText" type="text" name="Telefonnummer"><br><br>
+                <button class="inputButton" onclick="send()" type="button">Senden</button>
             </div>
+            
+            </form>
         </div>
-        
-        <div class="containerMiddleSection7">
-            <img class="imageInContainer80 imageCenter left50 top40 absolute front" src="img/svg/Avatar-Frau.svg"/>
-            <div class="containerQuoteSection7">
-                <h1 class="middle top75 nowrap">Elena</h1>
-                <p class="top85">"Unter jedem Bild steht ein Zitat des Kunden."</p>
-            </div>
-        </div>
-        
-        <div class="containerRightSection7">
-            <img class="imageInContainer80 imageCenter left50 top40 absolute front" src="img/svg/Avatar-Mann.svg"/>
-            <div class="containerQuoteSection7">
-                <h1 class="middle top75 nowrap">Jonas</h1>
-                <p class="top85">"Unter jedem Bild steht ein Zitat des Kunden."</p>
-            </div>
-        </div>
-        <svg class="line" height="100%" width="100%">
-                <line x1="50%" y1="0%" x2="50%" y2="10%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="50%" y1="16%" x2="50%" y2="20%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="20%" y1="25%" x2="47%" y2="25%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="53%" y1="25%" x2="80%" y2="25%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="20%" y1="25%" x2="20%" y2="75%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="50%" y1="30%" x2="50%" y2="75%" style="stroke:black;stroke-width:5" />
-        </svg>
-        <svg class="line" height="100%" width="100%">
-                <line x1="80%" y1="25%" x2="80%" y2="75%" style="stroke:black;stroke-width:5" />
-        </svg>
     </div>
-    -->
 
     <!--Section8: Foot-->
 
@@ -657,37 +493,6 @@
     </div>
     
 </body>
-
-<!--
-<script>
-    //MENÜ ÖFFNEN & SCHLIESSEN MIT BUTTON
-    $('.menu-toggle').click(function(){
-        $('.site-nav').toggleClass('site-nav--open', 500); //Bei toggleClass braucht es keinen Punkt vor dem Klassennamen.
-        $(this).toggleClass('menu-toggle--open', 500);
-    });
-    //MENÜ ÖFFNEN & SCHLIESSEN MIT LINK
-    $('.site-nav__element').click(function(){
-        $('.site-nav').toggleClass('site-nav--open', 500);
-        $('.menu-toggle').toggleClass('menu-toggle--open', 500);
-    });
-    //GEHE ZU SEKTION BEI KLICK AUF LINK
-    $(document).on('click', 'a[href^="#"]', function (event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
-    });
-    //POSITION BEI OFFENER NAVI FIX
-    /*if($('.site-nav').hasClass('site-nav--open')) {
-        $('body').addClass('fixedPosition');
-        console.log('fixed');
-    }
-    else {
-        $('body').removeClass('fixedPosition');
-        console.log('unfixed');
-    }*/
-</script>
--->
 
 </html>
 
