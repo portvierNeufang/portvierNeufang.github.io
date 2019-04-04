@@ -40,7 +40,7 @@
     }
 
     .socialIcons{
-        width: 70px;
+        width: 45px;
     }
 
     .headerContainer{
@@ -616,7 +616,7 @@ p {
     left: 60%;
     top: 50%;
     transform: translate(0, -50%);
-    width: 15%;
+    width: 10%;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -629,7 +629,7 @@ p {
     left: 80%;
     top: 50%;
     transform: translate(0,-50%);
-    width: 15%;
+    width: 10%;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -640,7 +640,7 @@ p {
     z-index: 1000;
     position: absolute;
     left: 30%;
-    top: 50%;
+    top: 48%;
     width:23%;
     transform: translate(0,-50%);
     -webkit-transform: translate(0,-50%);
@@ -1001,6 +1001,11 @@ p {
     -o-transform: translate(0, -50%);
     /*background-color : red;*/
 }
+
+.side-nav__image:hover{
+    background-color: rgba(189,140,110,0.9);
+    cursor: pointer;
+} 
 
 /*OpeningFormular---------------------------------*/
 #openingStoerer{
