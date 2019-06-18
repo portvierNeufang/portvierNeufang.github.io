@@ -49,6 +49,10 @@
         right: 0;
     }
 
+    #container-right-placeholder {
+        min-width: 75px;
+    }
+
     #framewrapper {
         width: 1280px;
         height: 720px;
@@ -56,7 +60,7 @@
         overflow-y: hidden;
         overflow-x: hidden;
         /*border: 1px solid black;*/
-        background-color: #ddd;
+        background-color: #f1f1f1;
     }
     #frame {
         width: 1280px;
@@ -171,7 +175,9 @@
                 <iframe src="" id="frame"></iframe>
             </div>
         </div>
+        <div id="container-right-placeholder">
 
+        </div>
 
         <div id="container-right">
             <div class="toolbar">
@@ -362,6 +368,8 @@
             break;
         }
         scaleFrame(ratio);
+        scaleFrame(ratio);  //Fehler in der Funktion
+        scaleFrame(ratio);  //Fehler in der Funktion
     }
 
     //LOAD LINK IN IFRAME
@@ -373,7 +381,7 @@
 
     //ZOOM IFRAME CONTENT
     function scaleFrame(aspectRatioParameter) {
-        w = document.body.clientWidth;
+        w = document.body.clientWidth - $('#container-right').width();
         h = window.innerHeight;
 
         var aspectRatio;
@@ -408,10 +416,23 @@
             console.log(frameWidth);
         }
 
-        framewrapperHeight = $('#framewrapper').height();
+        var framewrapperHeight = $('#framewrapper').height();
+        var framewrapperWidth = $('#framewrapper').width();
 
-        scaleFactor = h/framewrapperHeight;
-        var scaleFactorFrame = h/frameHeight;
+        var scaleFactorHeight = h/framewrapperHeight;
+        var scaleFactorFrameHeight = h/frameHeight;
+        var scaleFactorWidth = w/framewrapperWidth;
+        var scaleFactorFrameWidth = w/frameWidth;
+
+        if(scaleFactorHeight < scaleFactorWidth) {
+            scaleFactor = scaleFactorHeight;
+            scaleFactorFrame = scaleFactorFrameHeight;
+        }
+        else
+        {
+            scaleFactor = scaleFactorWidth;
+            scaleFactorFrame = scaleFactorFrameWidth;
+        }
 
         //console.log(framewrapperHeight + ";" + scaleFactorFrame);
         var newframewrapperHeight = framewrapperHeight * scaleFactor; /*-2 wegen border*/
